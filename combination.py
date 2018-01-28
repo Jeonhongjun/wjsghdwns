@@ -20,3 +20,5 @@ for start in combinations(range(number), number//2):
         for j in link: ability-=int(matrix[i][j])
     min_value = min(min_value, abs(ability))
 print("능력치 차이의 최소값:",min_value)
+print("능력치 차이의 최소값:",min_value)
+print("hello, world")
